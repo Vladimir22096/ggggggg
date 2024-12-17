@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./app.js" defer>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <a class="logo" href="./index.html">
+                <img src="./img/logo.png" alt="Logo">
+            </a>
+
+            <button class="menu-toggle"></button>
+
+            <div class="nav-links">
+                <a href="#">О нас</a>
+                <a href="">Конкурсы</a>
+                <a href="#">Контакты</a>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="auth-buttons">
+                <a href="./registration.html"><button>Sign Up</button></a>
+                <button>Login</button>
+            </div>
+        </nav>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="./img/konkurs1.png" alt="Конкурс 1"">
+                    <h3 class=" slide-title" style="color: #fff; margin-top: 20px;">Космическая ракета
+                    </h3>
+                    <div class=" description">Каждой команде выдается большой лист бумаги и маркеры. Участники должны
+                        вместе
+                        создать рисунок космической ракеты, которая символизирует их семью. Каждый член семьи рисует
+                        свою
+                        часть ракеты (например, корпус, иллюминатор, двигатели), а затем все части соединяются в одно
+                        целое.
+                    </div>
+                    <div class="rating">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9734;</span>
+                    </div>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="control prev">&#10094;</button>
+                <button class="control next">&#10095;</button>
+            </div>
+            <div class="login-box">
+                <h2>Войти в личный кабинет</h2>
+                <form>
+                    <div class="user-box">
+                        <input type="email" name="" required="">
+                        <label>Почта</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="password" name="" required="">
+                        <label>Пароль</label>
+                    </div>
+                </form>
+                <button class="login-btn">Войти</button>
+            </div>
+            <div class="about__inner">
+                <h2 class="about__title">О нас</h2>
+                <div class="about__desc top-2">
+                    <p>
+                        Мы — команда энтузиастов, создающая уникальные городские мероприятия с космической тематикой,
+                        которые вдохновляют и объединяют людей. Наша цель — погрузить участников в захватывающий мир
+                        астрономии и науки, предлагая увлекательные программы, интерактивные выставки и незабываемые
+                        впечатления. Мы верим, что космос — это не только предмет исследования, но и источник
+                        вдохновения
+                        для творчества и инноваций. Присоединяйтесь к нам в нашем космическом путешествии и откройте для
+                        себя бескрайние возможности, которые предлагает вселенная!
+                    </p>
+                </div>
+                <div class="about__img top-2">
+                    <img src="./img/about-us.jpg" alt="image" style="height: 600px; margin-top: 15px;">
+                </div>
+            </div>
+            <section class="welcome top">
+                <div class="container">
+                    <div class="welcome__inner">
+                        <h2 class="welcome__title">Приветствуем вас!</h2>
+                        <div class="welcome__img top-2">
+                            <img src="./img/welcome.png"></img>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cards top">
+                <div class="container">
+                    <div class="cards__inner">
+                        <article class="cards__card">
+                            <div class="cards__card-img">
+                                <img src="./img/about-us.jpg" alt="image">
+                            </div>
+                            <h4 class="cards__card-title">«Семейный портрет»</h4>
+                            <p class="cards__card-desc">
+                                Каждая команда получает набор материалов для творчества (бумага, краски, карандаши).
+                                Задача команды – нарисовать семейный портрет, который отражает их уникальную семью.
+                                Портрет может включать как реальных членов семьи, так и вымышленных персонажей или
+                                элементы, символизирующие семейные ценности.
+                            </p>
+                            <p class="cards__card-check">Записано: 20</p>
+                            <div class="cards__card-rating">
+                                <img src="./img/star.svg" alt="rating">
+                                5
+                            </div>
+                            <a href="#!" class="cards__card-link button">Подробнее</a>
+                        </article>
+                        <article class="cards__card">
+                            <div class="cards__card-img">
+                                <img src="./img/raketa.jpg" alt="image">
+                            </div>
+                            <h4 class="cards__card-title">«Космическая ракета»</h4>
+                            <p class="cards__card-desc">
+                                Каждой команде выдается большой лист бумаги и маркеры. Участники должны вместе создать
+                                рисунок космической ракеты, которая символизирует их семью. Каждый член семьи рисует
+                                свою часть ракеты (например, корпус, иллюминатор, двигатели), а затем все части
+                                соединяются в одно целое.
+                            </p>
+                            <p class="cards__card-check">Записано: 30</p>
+                            <div class="cards__card-rating">
+                                <img src="./img/star.svg" alt="rating">
+                                4.6
+                            </div>
+                            <a href="#!" class="cards__card-link button">Подробнее</a>
+                        </article>
+                        <article class="cards__card">
+                            <div class="cards__card-img">
+                                <img src="./img/karta_zvezdnogo_neba1.png" alt="image">
+                            </div>
+                            <h4 class="cards__card-title">«Звездная карта»</h4>
+                            <p class="cards__card-desc">
+                                Команды получают листы бумаги и маркеры. Их задача – нарисовать карту звездного неба,
+                                где каждая звезда представляет одного члена семьи. Рядом с каждой звездой участники
+                                пишут качества или черты характера, которые они ценят в этом человеке.
+                            </p>
+                            <p class="cards__card-check">Записано: 40</p>
+                            <div class="cards__card-rating">
+                                <img src="./img/star.svg" alt="rating">
+                                4.7
+                            </div>
+                            <a href="#!" class="cards__card-link button">Подробнее</a>
+                        </article>
+                        <article class="cards__card">
+                            <div class="cards__card-img">
+                                <img src="./img/estafeta.jpg" alt="image">
+                            </div>
+                            <h4 class="cards__card-title">«Галактическая эстафета»</h4>
+                            <p class="cards__card-desc">
+                                Это активная игра-эстафета, в которой участвуют все члены семьи. Этапами эстафеты могут
+                                быть различные задания, такие как прохождение лабиринта, сбор космических предметов,
+                                выполнение физических упражнений и т.д. Команда должна пройти все этапы как можно
+                                быстрее, при этом каждый участник должен внести свой вклад.
+                            </p>
+                            <p class="cards__card-check">Записано: 50</p>
+                            <div class="cards__card-rating">
+                                <img src="./img/star.svg" alt="rating">
+                                4.5
+                            </div>
+                            <a href="#!" class="cards__card-link button">Подробнее</a>
+                        </article>
+                        <article class="cards__card">
+                            <div class="cards__card-img">
+                                <img src="./img/cosmodrom.jpg" alt="image">
+                            </div>
+                            <h4 class="cards__card-title">«Креативный космодром»</h4>
+                            <p class="cards__card-desc">
+                                Каждому участнику дается задание придумать и представить свой собственный космодром. Это
+                                может быть устное представление или небольшая сценка, где участники рассказывают о своем
+                                уникальном космодроме, его особенностях и назначении. Космодром может быть
+                                фантастическим, футуристическим или даже сказочным.
+                            </p>
+                            <p class="cards__card-check">Записано: 60</p>
+                            <div class="cards__card-rating">
+                                <img src="./img/star.svg" alt="rating">
+                                5
+                            </div>
+                            <a href="#!" class="cards__card-link button">Подробнее</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <div class="search__inner">
+                <h2 class="search__title">Найти конкурс</h2>
+                <input type="search" class="search__input top-2" placeholder="Поиск конкурса...">
+            </div>
+            <section class="reviews-section">
+                <h2>Отзывы участников</h2>
+                <div class="reviews-container">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./img/male.jpg" alt="Фотография автора" class="author-photo">
+                            <div class="review-info">
+                                <h3 class="author-name">Иван Иванов</h3>
+                                <span class="review-date">12 мая 2024</span>
+                            </div>
+                        </div>
+                        <p class="review-text">Отличный конкурс! Организация на высшем уровне, получил море
+                            положительных эмоций и незабываемых впечатлений.</p>
+                        <a href="" class="review-link">Подробнее о конкурсе</a>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./img/female.jpg" alt="Фотография автора" class="author-photo">
+                            <div class="review-info">
+                                <h3 class="author-name">Мария Смирнова</h3>
+                                <span class="review-date">25 апреля 2024</span>
+                            </div>
+                        </div>
+                        <p class="review-text">Участвую не первый раз и каждый раз убеждаюсь, насколько важны такие
+                            мероприятия. Всем рекомендую!</p>
+                        <a href="" class="review-link">Подробнее о конкурсе</a>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="./img/male.jpg" alt="Фотография автора" class="author-photo">
+                            <div class="review-info">
+                                <h3 class="author-name">Петр Сидоров</h3>
+                                <span class="review-date">5 апреля 2024</span>
+                            </div>
+                        </div>
+                        <p class="review-text">Конкурс помог мне раскрыть новые таланты и познакомиться с интересными
+                            людьми. Огромное спасибо организаторам!</p>
+                        <a href="" class="review-link">Подробнее о конкурсе</a>
+                    </div>
+                </div>
+            </section>
+            <section class="subscribe top">
+                <div class="container">
+                    <div class="subscribe__inner">
+                        <h2 class="subscribe__title">Подписаться на новости</h2>
+                        <form action="#" class="subscribe__form top-2">
+                            <div class="subscribe__elem">
+                                <label for="email1" class="subscribe__elem-label">E-mail</label>
+                                <input type="email" id="email1" class="subscribe__elem-input"
+                                    placeholder="example@mail.com">
+                            </div>
+                            <div class="subscribe__elem subscribe__elem--check">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox" class="subscribe__elem-label">
+                                    Даю согласие на обработку данных
+                                </label>
+                            </div>
+                            <button type="button" class="subscribe__elem-button button">
+                                Подписаться
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer" class="footer">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__contacts">
+                            <a href="#" class="footer__contacts-link">+7 (4842) 23-45-67</a>
+                            <a href="#" class="footer__contacts-link">family@cosmos.ru</a>
+                        </div>
+                        <nav class="footer__nav">
+                            <a href="index.html" class="footer__nav-link">Главная</a>
+                            <a href="index-light.html" class="footer__nav-link">
+                                Главная-светлая
+                            </a>
+                            <a href="./registration.html" class="footer__nav-link">Регистрация</a>
+                            <a href="./ivent.html" class="footer__nav-link">Конкурс</a>
+                            <a href="./account.html" class="footer__nav-link">Личный кабинет</a>
+                            <a href="./404.html" class="footer__nav-link">Страница не найдена</a>
+                        </nav>
+                    </div>
+                </div>
+            </footer>
+
+</body>
+
+</html>
